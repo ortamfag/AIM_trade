@@ -1,0 +1,25 @@
+@import url("../fonts/TTFirs-Regular/ttfirsregular.css");
+@import url("../fonts/TTFirs-ExtraBold/ttfirsextrabold.css");
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.nav__item {
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__background {
+  background: #3BA605;
+  border-radius: 0px 0px 250px 250px;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=style.css.map */
