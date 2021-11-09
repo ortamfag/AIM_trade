@@ -1,11 +1,104 @@
 .header
-    
+    color: #fff
+    margin-bottom: 130px
+
     &__background
         background: #3BA605
         border-radius: 0px 0px 250px 250px
         position: absolute
         width: 100%
-        height: 600px
+        height: 900px
         left: 0px
         top: 0px
         z-index: -1
+
+    &__wrapper
+        margin: 98px 3% 0% 3%
+
+    &__inner
+        display: flex
+        width: 100%
+        justify-content: space-between
+        align-items: center
+
+    &__title h1
+        font:
+            size: 40px
+            family: $fontextrabold
+        line-height: 100%
+        width: 11em
+        margin-bottom: 7%
+
+    &__title p
+        font:
+            size: 24px
+            family: $fontregular
+        line-height: 130%
+
+    &__button button
+        margin-right: 3%
+
+    &__arrow
+        display: flex
+        justify-content: center
+        margin-top: 100px    
+    
+    &__arrow-circle
+        width: 62px
+        height: 62px
+        border-radius: 50%
+        background: #FFF
+        z-index: 1
+        padding-top: 9px
+        cursor: pointer
+
+        display: flex
+        justify-content: center
+
+    &__arrow-item
+        width: 29px
+        height: 29px
+        border-top: 4px solid #3BA605
+        border-right: 4px solid #3BA605
+        transform: rotate(135deg)
+
+    &__arrow-circle:hover
+        background: #3BA605
+        transition: 0.5s
+
+    &__arrow-circle:hover div
+        border-top: 4px solid #FFF
+        border-right: 4px solid #FFF
+        transition: 0.5s    
+
+
+.btn
+    border: 1px solid #FFF
+    border-radius: 10px
+    width: 314px
+    height: 60px
+    font:
+        family: $fontroboto
+        size: 16px
+    cursor: pointer
+
+    &-white
+        background: #fff
+        color: #3BA605
+        border: 1px solid #3BA605
+
+    &-green
+        background: #3BA605
+        color: #fff
+        border: 1px solid #FFF
+
+    &-white:hover
+        background: #3BA605
+        color: #FFF
+        transition: 0.5s
+
+    &-green:hover
+        background: #FFFFFF
+        color: #3BA605
+        transition: 0.5s
+

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/style.css">
+    <script src="public/js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -13,16 +14,317 @@
 <body>
 
     <header class="header">
-    <nav class="nav">
-        <img src="img/logo_map.svg">
-        <img src="img/logo_agency.svg">
-        <p class="nav__item">Актуальные решения</p>
-        <p class="nav__item">Анализ</p>
-        <p class="nav__item">Технологии</p>
-        <p class="nav__item">Системные сдвиги</p>
-        <p class="nav__item">Мнения экспертов</p>
-    </nav>
-    <div class="header__background"></div>
+        <nav class="nav">
+            <a href="https://innovationmap.innoagency.ru/"><img src="img/logo_map.svg"></a>
+            <a href="https://innoagency.ru/"><img src="img/logo_agency.svg"></a>
+            <p class="nav__item">Актуальные решения</p>
+            <p class="nav__item">Анализ</p>
+            <p class="nav__item">Технологии</p>
+            <p class="nav__item">Системные сдвиги</p>
+            <p class="nav__item">Мнения экспертов</p>
+        </nav>
+        <div class="header__background"></div>
+
+        <div class="header__wrapper">
+            <div class="header__inner">
+                <div class="header__title">
+                    <h1>ИЗМЕНЕНИЯ СФЕРЫ ТОРГОВЛИ<br> ПОСЛЕ ПАНДЕМИИ</h1>
+                    <p>Агентство инноваций Москвы подготовило анализ 
+                        потребительского <br> поведения и составило 
+                        подборку перспективных бизнес-моделей<br> и технологий</p>
+                </div>
+
+                <img src="img/header.png">
+            </div>
+
+            <div class="header__button">
+                <button class="btn btn-white">Добавить решение</button>
+                <button class="btn btn-green">Открыть исследование</button>
+            </div>
+
+            <div class="header__arrow">
+                <div class="header__arrow-circle">
+                    <div class="header__arrow-item"></div>
+                </div>
+            </div>  
+        </div>
     </header>
+
+    <main class="main">
+        <section id="introduction">
+            <div class="introduction">
+                <p>Пандемия Covid-19 привела к катастрофическому падению и 
+                    неравномерному восстановлению торговой отрасли. Глубина кризиса 
+                    и скорость выхода из него будут зависеть от продолжительности 
+                    вспышки COVID-19, возникновения новых волн и эффективности 
+                    ответных мер. По данным Всемирной торговой организации, 
+                    восстановление отрасли в случае реализации оптимистичного 
+                    сценария произойдет в 2021 году.</p>
+
+                <p>Текущий кризис способствовал формированию особого 
+                    формата потребления с точки зрения расходов, 
+                    категорий покупаемых товаров, каналов продаж и стратегии покупок. 
+                    Произошло ускорение развития электронной торговли и сопутствующих
+                    сервисов.</p>
+
+                <img src="img/indexgraph.png">
+            </div>
+        </section>
+
+        <section id="actual">
+            <div class="actual">
+                <div class="actual__background"></div>
+                <div class="actual__wrapper">
+                    <h1 class="actual__wrapper-h1">АКТУАЛЬНЫЕ РЕШЕНИЯ</h1>
+
+                    <p class="actual__wrapper-p">Агентство проанализировало российский рынок RetailTech и 
+                        сформировало подборку технологических продуктов и 
+                        сервисов.</p>
+
+                    <div class="actual__inner">
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/actualpc.svg">
+                                <h1>E-commerce</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Маркетплейсы</h1>
+                                <p>Платформы, онлайн-магазины</p>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Платформы в области устойчивого потребления</h1>
+                                <p>Маркетплейсы, специализирующиеся на экопродуктах, 
+                                    аренде и обмене</p>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>SaaS-конструкторы онлайн-магазинов</h1>
+                            </div>
+                        </div>
+
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/analytics.svg">
+                                <h1>Аналитика</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Анализ потребительского поведения</h1>
+                                
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Комплексная аналитика деятельности магазина</h1>
+                                <p>Наполненность полок, деятельность продавцов, 
+                                    состояние складов и т. д.</p>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Анализ эффективности маркетинговой и рекламной активностей</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Анализ ценообразования</h1>
+                            </div>
+                        </div>
+
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/logistics.svg">
+                                <h1>Логистика и дистрибуция</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Платформы для автоматизации взаимодействия с поставщиками</h1>
+                                
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Платформы организации доставки</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Формирование и планирование закупок и поставок</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Вендинг</h1>
+                            </div>
+                        </div>
+
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/pay.svg">
+                                <h1>Платежные системы</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Платежные платформы</h1>
+                                
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Цифровые квитанции</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Точки продаж (PoS) и Checkout-системы</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Кешбэк-сервисы</h1>
+                            </div>
+                        </div>
+
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/marketing.svg">
+                                <h1>Маркетинг</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Новые каналы продаж</h1>
+                                <p>Например, интеграция продаж в новостную ленту, видеоигру или фильм</p>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Производство виртуального интерактивного контента</h1>
+                                <p>Сервисы создания 3D-моделей товаров, AR-элементов на сайтах 
+                                    и в мобильных приложениях</p>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Платформы Online-to-Offline (O2O)</h1>
+                                <p>Инструменты по цифровизации поведения офлайн-клиента 
+                                    и включению его в омниканальную систему магазина</p>
+                            </div>
+                        </div>
+
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/experience.svg">
+                                <h1>Создание клиентского опыта</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Платежные платформы</h1> 
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Цифровые квитанции</h1>   
+                            </div>
+                        </div>
+
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/factory.svg">
+                                <h1>Производство 
+                                    продуктов по запросу</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Сервис создания продуктов под точечный запрос пользователя</h1>
+ 
+                            </div>
+                        </div>
+
+                        <div class="actual__inner-item">
+                            <div class="actual__inner-logo">
+                                <img src="img/robot.svg">
+                                <h1>Роботизированный ритейл</h1>
+                            </div>
+
+                            <div class="actual__inner-example">
+                                <h1>Консультанты в зале, складские операции</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 class="actual__bottom">У вас есть технологический продукт или сервис?</h1>
+
+                    <div class="actual__button">
+                        <button class="btn btn-white">Добавить решение</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="analysis">
+            <div class="analysis">
+                <div class="analysis__wrapper">
+                    <h1>Анализ потребительского поведения</h1>
+
+                    <p class="analysis__wrapper-p">Формирование специфичного 
+                        «кризисного» потребления, утилитарный онлайн, эмоциональный 
+                        офлайн и потребительская осознанность – чего ожидать в 
+                        ближайшие годы?
+                    </p>
+
+                    <div class="analysis__inner">
+                        <div class="analysis__inner-item y2020">
+                            <p>2020</p>
+                        </div>
+
+                        <div class="analysis__inner-item analysis__inner-itemgreen y2021">
+                            
+                            <p>2021-2022</p>
+                            
+                        </div>
+
+                        <div class="analysis__inner-item y2025">
+                            <p>2025+</p>
+                        </div>
+                    </div>
+
+                    <ul class="analysis__wrapper-list g2021">
+                        <li>Преобладание утилитарной модели потребления: внимание к 
+                            удобству, скорости покупки, низкой стоимости
+                        </li>
+                        <li> Покупки на длительный срок и регулярные покупки переходят
+                            в онлайн
+                        </li>
+                        <li>Распространение «устойчивых» моделей потребления, 
+                            например аренда одежды по подписке
+                        </li>
+                        <li>Рост готовности делиться персональными данными для 
+                            получения кастомизированного предложения
+                        </li>
+                    </ul>
+
+                    <ul class="analysis__wrapper-list g2020">
+                        <li>Преобладание утилитарной модели потребления: внимание к 
+                            удобству, скорости покупки, низкой стоимости
+                        </li>
+                        <li> Покупки на длительный срок и регулярные покупки переходят
+                            в онлайн
+                        </li>
+                        <li>Распространение «устойчивых» моделей потребления, 
+                            например аренда одежды по подписке
+                        </li>
+                        <li>Рост готовности делиться персональными данными для 
+                            получения кастомизированного предложения
+                        </li>
+                    </ul>
+
+                    <ul class="analysis__wrapper-list g2025">
+                        <li>Преобладание утилитарной модели потребления: внимание к 
+                            удобству, скорости покупки, низкой стоимости
+                        </li>
+                        <li> Покупки на длительный срок и регулярные покупки переходят
+                            в онлайн
+                        </li>
+                        <li>Распространение «устойчивых» моделей потребления, 
+                            например аренда одежды по подписке
+                        </li>
+                        <li>Рост готовности делиться персональными данными для 
+                            получения кастомизированного предложения
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
-</html>
+</html> 

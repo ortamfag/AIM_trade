@@ -1,5 +1,13 @@
 @import url("../fonts/TTFirs-Regular/ttfirsregular.css");
 @import url("../fonts/TTFirs-ExtraBold/ttfirsextrabold.css");
+@import url("../fonts/TTFirs-Medium/style.css");
+@import url("../fonts/TTFirs-Bold/style.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -11,15 +19,256 @@
   font-family: "Roboto", sans-serif;
 }
 
+.header {
+  color: #fff;
+  margin-bottom: 130px;
+}
 .header__background {
   background: #3BA605;
   border-radius: 0px 0px 250px 250px;
   position: absolute;
   width: 100%;
-  height: 600px;
+  height: 900px;
   left: 0px;
   top: 0px;
   z-index: -1;
+}
+.header__wrapper {
+  margin: 98px 3% 0% 3%;
+}
+.header__inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__title h1 {
+  font-size: 40px;
+  font-family: "TT Firs", ExtraBold;
+  line-height: 100%;
+  width: 11em;
+  margin-bottom: 7%;
+}
+.header__title p {
+  font-size: 24px;
+  font-family: "TT Firs", Regular;
+  line-height: 130%;
+}
+.header__button button {
+  margin-right: 3%;
+}
+.header__arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.header__arrow-circle {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: #FFF;
+  z-index: 1;
+  padding-top: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.header__arrow-item {
+  width: 29px;
+  height: 29px;
+  border-top: 4px solid #3BA605;
+  border-right: 4px solid #3BA605;
+  transform: rotate(135deg);
+}
+.header__arrow-circle:hover {
+  background: #3BA605;
+  transition: 0.5s;
+}
+.header__arrow-circle:hover div {
+  border-top: 4px solid #FFF;
+  border-right: 4px solid #FFF;
+  transition: 0.5s;
+}
+
+.btn {
+  border: 1px solid #FFF;
+  border-radius: 10px;
+  width: 314px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-white {
+  background: #fff;
+  color: #3BA605;
+  border: 1px solid #3BA605;
+}
+.btn-green {
+  background: #3BA605;
+  color: #fff;
+  border: 1px solid #FFF;
+}
+.btn-white:hover {
+  background: #3BA605;
+  color: #FFF;
+  transition: 0.5s;
+}
+.btn-green:hover {
+  background: #FFFFFF;
+  color: #3BA605;
+  transition: 0.5s;
+}
+
+.introduction {
+  margin: 0% 3% 0% 3%;
+  font-family: "TT Firs", Regular;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.introduction p {
+  margin-bottom: 2%;
+}
+
+.introduction img {
+  display: flex;
+  margin: 7% auto;
+}
+
+.actual {
+  position: relative;
+}
+.actual__background {
+  background: #F8F8F8;
+  border-radius: 0px 200px;
+  width: 100%;
+  height: 3200px;
+  z-index: -1;
+  position: absolute;
+}
+.actual__wrapper {
+  margin: 0% 3%;
+}
+.actual__wrapper-h1 {
+  font-size: 42px;
+  font-family: "TT Firs", Bold;
+  font-letter-spacing: 0.1em;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+.actual__wrapper-p {
+  font-size: 24px;
+  font-family: "TT Firs", Regular;
+  font-line-height: 130%;
+  margin-bottom: 121px;
+}
+.actual__inner {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 65px;
+  grid-row-gap: 100px;
+}
+.actual__inner-logo {
+  display: flex;
+  align-items: center;
+}
+.actual__inner-logo h1 {
+  font-size: 36px;
+  font-family: "TT Firs", Medium;
+  letter-spacing: 0.1em;
+  margin-left: 20px;
+}
+.actual__inner-example {
+  margin-top: 85px;
+}
+.actual__inner-example h1 {
+  font-size: 24px;
+  font-family: "TT Firs", Bold;
+  text-decoration: underline;
+  color: #3BA605;
+}
+.actual__inner-example p {
+  font-size: 20px;
+  font-family: "TT Firs", Medium;
+  line-height: 130%;
+  margin-top: 24px;
+}
+.actual__bottom {
+  text-align: center;
+  font-size: 36px;
+  font-family: "TT Firs", Bold;
+  color: #3BA605;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.actual__button {
+  text-align: center;
+}
+
+.analysis {
+  margin: 100px 3%;
+}
+.analysis__wrapper h1 {
+  font-family: "TT Firs", Bold;
+  font-size: 42px;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+}
+.analysis__wrapper p {
+  font-size: 24px;
+  font-family: "TT Firs", Regular;
+  margin-bottom: 91px;
+}
+.analysis__wrapper-list li {
+  font-size: 20px;
+  font-family: "TT Firs", Medium;
+  line-height: 130%;
+}
+.analysis__wrapper-list {
+  margin-top: 70px;
+  margin-left: 3%;
+}
+.analysis__inner {
+  border-radius: 20px;
+  border: 1px solid #000;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.analysis__inner-item p {
+  font-size: 22px;
+  font-family: "TT Firs", Bold;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.analysis__inner-item {
+  width: 100%;
+  cursor: pointer;
+}
+.analysis__inner-itemgreen {
+  background: #3BA605;
+  color: #FFF;
+  border-left: 0.5px solid #000;
+  border-right: 0.5px solid #000;
+}
+.analysis__inner-hr {
+  background-color: #000;
+  border-top: none;
+  color: #000;
+}
+
+.g2020 {
+  display: none;
+}
+
+.g2025 {
+  display: none;
+}
+
+.g2021 {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
