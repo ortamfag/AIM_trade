@@ -28,7 +28,7 @@
   border-radius: 0px 0px 250px 250px;
   position: absolute;
   width: 100%;
-  height: 900px;
+  height: 100%;
   left: 0px;
   top: 0px;
   z-index: -1;
@@ -143,7 +143,7 @@
   background: #F8F8F8;
   border-radius: 0px 200px;
   width: 100%;
-  height: 3200px;
+  height: 102%;
   z-index: -1;
   position: absolute;
 }
@@ -295,6 +295,95 @@
 
 .list3active {
   display: block;
+}
+
+.technology h1 {
+  font-family: "TT Firs", Bold;
+  font-size: 42px;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+.technology p {
+  font-size: 24px;
+  font-family: "TT Firs", Regular;
+}
+
+.technology {
+  margin: 0 3%;
+}
+.technology__background {
+  background: #F8F8F8;
+  border-radius: 0px 200px;
+  width: 100%;
+  height: 125%;
+  z-index: -1;
+  position: absolute;
+}
+.technology__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.technology__button button {
+  width: 500px;
+  height: 100px;
+  background: #3BA605;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #FFF;
+  font-size: 26px;
+  font-family: "TT Firs", Bold;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
+.technology__button button:hover {
+  background: #FFF;
+  color: #3BA605;
+  transition: 0.5s;
+  border: 1px solid #3BA605;
+}
+.technology__inner h1 {
+  font-size: 36px;
+  font-family: "TT Firs", Medium;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+.technology__inner-item {
+  display: flex;
+  flex-direction: column;
+}
+.technology__inner-item-1 {
+  margin-left: 8%;
+  margin-right: 2%;
+}
+.technology__inner-item-2 {
+  margin-right: 8%;
+  margin-left: 2%;
+}
+.technology__inner-item button {
+  width: 500px;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #3BA605;
+  font-size: 26px;
+  font-family: "TT Firs", Bold;
+  font-weight: 600;
+  border: 0;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.technology__inner-item button:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+.technology__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
