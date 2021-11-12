@@ -247,22 +247,24 @@
   width: 100%;
   cursor: pointer;
 }
+.analysis__inner-item1 {
+  border-right: 1px solid #000;
+}
+.analysis__inner-item3 {
+  border-left: 1px solid #000;
+}
 .analysis__inner-itemgreen2 {
   background: #3BA605;
   color: #FFF;
-  border-left: 0.5px solid #000;
-  border-right: 0.5px solid #000;
 }
 .analysis__inner-itemgreen1 {
   background: #3BA605;
   color: #FFF;
-  border-right: 0.5px solid #000;
   border-radius: 19px 0px 0px 19px;
 }
 .analysis__inner-itemgreen3 {
   background: #3BA605;
   color: #FFF;
-  border-left: 0.5px solid #000;
   border-radius: 0px 19px 19px 0px;
 }
 .analysis__inner-hr {
