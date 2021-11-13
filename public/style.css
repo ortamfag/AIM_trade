@@ -166,7 +166,7 @@
 .actual__inner {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-column-gap: 65px;
+  grid-column-gap: 40px;
   grid-row-gap: 100px;
 }
 .actual__inner-logo {
