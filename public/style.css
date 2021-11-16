@@ -321,7 +321,7 @@
   background: #F8F8F8;
   border-radius: 0px 200px;
   width: 100%;
-  height: 140%;
+  height: 127%;
   z-index: -1;
   position: absolute;
 }
@@ -473,6 +473,121 @@
 
 .modal__text-2 {
   margin-top: 20px;
+}
+
+.blink {
+  margin: 100px 3%;
+}
+.blink__title h1 {
+  font-family: "TT Firs", Bold;
+  font-size: 42px;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+}
+.blink__title p {
+  font-size: 24px;
+  font-family: "TT Firs", Regular;
+  margin-bottom: 91px;
+}
+.blink__wrapper {
+  display: flex;
+  align-items: start;
+  margin-bottom: 30px;
+}
+.blink__wrapper-number {
+  font-size: 100px;
+  font-family: "TT Firs", Bold;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #3BA605;
+  margin-right: 80px;
+  min-width: 70px;
+}
+.blink__wrapper-list li {
+  font-size: 20px;
+  font-family: "TT Firs", Medium;
+  line-height: 130%;
+}
+.blink__wrapper-list {
+  margin-top: 70px;
+  margin-left: 3%;
+}
+.blink__inner h1 {
+  font-size: 36px;
+  font-family: "TT Firs", Medium;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.blink__inner p {
+  font-size: 20px;
+  font-family: "TT Firs", Medium;
+}
+.blink__switch {
+  border-radius: 20px;
+  border: 1px solid #000;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.blink__switch-item p {
+  font-size: 22px;
+  font-family: "TT Firs", Bold;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.blink__switch-item {
+  width: 100%;
+  cursor: pointer;
+}
+.blink__switch-item1 {
+  border-right: 1px solid #000;
+}
+.blink__switch-item3 {
+  border-left: 1px solid #000;
+}
+.blink__switch-itemgreen2 {
+  background: #3BA605;
+  color: #FFF;
+}
+.blink__switch-itemgreen1 {
+  background: #3BA605;
+  color: #FFF;
+  border-radius: 19px 0px 0px 19px;
+}
+.blink__switch-itemgreen3 {
+  background: #3BA605;
+  color: #FFF;
+  border-radius: 0px 19px 19px 0px;
+}
+.blink__switch-hr {
+  background-color: #000;
+  border-top: none;
+  color: #000;
+}
+
+.ul1 {
+  display: none;
+}
+
+.ul2 {
+  display: none;
+}
+
+.ul3 {
+  display: none;
+}
+
+.list1active {
+  display: block;
+}
+
+.list2active {
+  display: block;
+}
+
+.list3active {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

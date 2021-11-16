@@ -51,4 +51,36 @@ makeModal('#modal-6');
 makeModal('#modal-7');
 // end modals
 
+const onelist = document.querySelector('.ul1');
+const twolist = document.querySelector('.ul2');
+const threelist = document.querySelector('.ul3');
 
+const one = document.querySelector('.blink__switch-item1');
+const two = document.querySelector('.blink__switch-item2');
+const three = document.querySelector('.blink__switch-item3');
+
+one.addEventListener('click', () => one.classList.toggle('analysis__inner-itemgreen1'));
+one.addEventListener('click', () => two.classList.remove('analysis__inner-itemgreen2'));
+one.addEventListener('click', () => three.classList.remove('analysis__inner-itemgreen3'));
+
+//
+one.addEventListener('click', () => onelist.classList.toggle('list1active'));
+one.addEventListener('click', () => twolist.classList.remove('list2active'));
+one.addEventListener('click', () => threelist.classList.remove('list3active'));
+
+
+two.addEventListener('click', () => two.classList.toggle('analysis__inner-itemgreen2'));
+two.addEventListener('click', () => one.classList.remove('analysis__inner-itemgreen1'));
+two.addEventListener('click', () => three.classList.remove('analysis__inner-itemgreen3'));
+//
+two.addEventListener('click', () => twolist.classList.toggle('list2active'));
+two.addEventListener('click', () => onelist.classList.remove('list1active'));
+two.addEventListener('click', () => threelist.classList.remove('list3active'));
+
+three.addEventListener('click', () => three.classList.toggle('analysis__inner-itemgreen3'));
+three.addEventListener('click', () => one.classList.remove('analysis__inner-itemgreen1'));
+three.addEventListener('click', () => two.classList.remove('analysis__inner-itemgreen2'));
+//
+three.addEventListener('click', () => threelist.classList.toggle('list3active'));
+three.addEventListener('click', () => onelist.classList.remove('list1active'));
+three.addEventListener('click', () => twolist.classList.remove('list2active'));
