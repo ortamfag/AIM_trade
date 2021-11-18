@@ -22,16 +22,9 @@
 .header {
   color: #fff;
   margin-bottom: 130px;
-}
-.header__background {
   background: #3BA605;
   border-radius: 0px 0px 250px 250px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+  padding-bottom: 50px;
 }
 .header__wrapper {
   margin: 98px 3% 0% 3%;
@@ -135,19 +128,12 @@
 .introduction img {
   display: flex;
   margin: 7% auto;
-  width: 80%;
+  width: 90%;
 }
 
 .actual {
-  position: relative;
-}
-.actual__background {
   background: #F8F8F8;
   border-radius: 0px 200px;
-  width: 100%;
-  height: 102%;
-  z-index: -1;
-  position: absolute;
 }
 .actual__wrapper {
   margin: 0% 3%;
@@ -208,6 +194,7 @@
 }
 .actual__button {
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .analysis {
@@ -315,20 +302,15 @@
 }
 
 .technology {
-  margin: 0 3%;
-}
-.technology__background {
+  padding: 0 3%;
   background: #F8F8F8;
   border-radius: 0px 200px;
-  width: 100%;
-  height: 127%;
-  z-index: -1;
-  position: absolute;
 }
 .technology__button {
   display: flex;
   justify-content: center;
   margin-top: 70px;
+  padding-bottom: 100px;
 }
 .technology__button button {
   width: 500px;
@@ -565,6 +547,9 @@
   border-top: none;
   color: #000;
 }
+.blink__switch {
+  margin-top: 100px;
+}
 
 .ul1 {
   display: none;
@@ -588,6 +573,64 @@
 
 .list3active {
   display: block;
+}
+
+.conclusion {
+  padding: 100px 3%;
+  background: #F8F8F8;
+  border-radius: 0px 200px;
+}
+
+.conclusion h1 {
+  font-family: "TT Firs", Bold;
+  font-size: 42px;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+.conclusion p {
+  font-size: 24px;
+  font-family: "TT Firs", Regular;
+  margin-bottom: 91px;
+}
+
+.opinion__title {
+  margin: 100px 3%;
+}
+.opinion__title h1 {
+  font-family: "TT Firs", Bold;
+  font-size: 42px;
+  letter-spacing: 0.1em;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+.opinion__title p {
+  font-size: 24px;
+  font-family: "TT Firs", Regular;
+  margin-bottom: 91px;
+}
+
+.item {
+  background: #3BA605;
+  border-radius: 250px 250px 0px 0px;
+  padding: 110px 30px 50px 30px;
+}
+.item__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #FFF;
+}
+.item__text p {
+  margin-bottom: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */
