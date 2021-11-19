@@ -18,6 +18,12 @@
   color: #FFF;
   font-family: "Roboto", sans-serif;
 }
+.nav__burger {
+  display: none;
+}
+.nav__mobile {
+  display: none;
+}
 
 .header {
   color: #fff;

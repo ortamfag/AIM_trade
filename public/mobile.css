@@ -1,0 +1,80 @@
+@import url("../fonts/TTFirs-Regular/ttfirsregular.css");
+@import url("../fonts/TTFirs-ExtraBold/ttfirsextrabold.css");
+@import url("../fonts/TTFirs-Medium/style.css");
+@import url("../fonts/TTFirs-Bold/style.css");
+@media (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
+  .nav__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8% 0% 8%;
+  }
+  .nav__burger {
+    display: block;
+  }
+  .nav__burger div {
+    width: 26px;
+    height: 3px;
+    background: #FFF;
+  }
+  .nav__burger div:nth-child(2) {
+    margin-top: 7px;
+  }
+  .nav__burger div:nth-child(3) {
+    margin-top: 7px;
+  }
+
+  .header {
+    border-radius: 0px 0px 100px 100px;
+  }
+  .header__title h1 {
+    font-size: 30px;
+    font-family: "TT Firs", Bold;
+    width: 100%;
+    line-height: 100%;
+  }
+  .header__inner {
+    padding: 50px 5% 105px 5%;
+    background: none;
+  }
+  .header__arrow {
+    display: none;
+  }
+  .header__wrapper {
+    margin: 0%;
+    background: url(../img/header-blur.png) no-repeat;
+    background-size: 90%;
+    background-position: 114% 73%;
+  }
+  .header__button {
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 14px;
+    font-family: "TT Firs", Bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 16px;
+  }
+
+  .btn-white {
+    margin-bottom: 30px;
+  }
+
+  .introduction {
+    font-size: 20px;
+    padding: 0% 5% 0% 5%;
+  }
+}
+@media (max-width: 320px) {
+  .nav__mobile {
+    padding: 30px 5% 0% 5%;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
