@@ -84,3 +84,40 @@ three.addEventListener('click', () => two.classList.remove('analysis__inner-item
 three.addEventListener('click', () => threelist.classList.toggle('list3active'));
 three.addEventListener('click', () => onelist.classList.remove('list1active'));
 three.addEventListener('click', () => twolist.classList.remove('list2active'));
+
+
+//slider
+let slideIndex = 1;
+
+showSlides(slideIndex);
+
+function nextSlide() {
+    showSlides(slideIndex += 1);
+}
+
+function previousSlide() {
+    showSlides(slideIndex -= 1);  
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("item");
+    
+    if (n > slides.length) {
+    	slideIndex = 1
+    }
+    if (n < 1) {
+    	slideIndex = slides.length
+    }
+
+    for (let slide of slides) {
+        slide.style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";    
+}
+
+//slider
