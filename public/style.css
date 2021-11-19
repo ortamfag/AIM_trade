@@ -652,4 +652,23 @@
   cursor: pointer;
 }
 
+.item__switch {
+  display: flex;
+}
+
+.switch {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #FFF;
+  margin-right: 10px;
+}
+.switch__active {
+  background: #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
