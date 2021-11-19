@@ -116,6 +116,11 @@
   transition: 0.5s;
 }
 
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
 .introduction {
   margin: 0% 3% 0% 3%;
   font-family: "TT Firs", Regular;
@@ -368,7 +373,8 @@
 }
 .technology__inner-item button:hover {
   transition: 0.3s;
-  transform: scale(1.05);
+  background: #3BA605;
+  color: #FFF;
 }
 .technology__wrapper {
   display: flex;
@@ -654,6 +660,8 @@
 
 .item__switch {
   display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .switch {
@@ -669,6 +677,19 @@
   height: 10px;
   border-radius: 10px;
   margin-right: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  font-family: "TT Firs", Bold;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  margin-left: 70px;
+}
+
+.footer {
+  background: #000;
+  padding: 30px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
