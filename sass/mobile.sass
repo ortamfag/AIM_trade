@@ -77,7 +77,59 @@ $fontmedium: 'TT Firs', Medium
     .introduction
         font:
             size: 20px
-        padding: 0% 5% 0% 5%
+        padding: 0% 5% 10% 5%
+
+    .actual
+
+        border-radius: 0px 150px
+
+        &__wrapper-h1
+            font:
+                size: 30px
+
+        &__wrapper-p
+            font:
+                size: 20px
+            margin-bottom: 50px
+
+        &__inner
+            display: none
+
+            &-mobile
+                display: grid
+                grid-template-columns: 45% 45%
+                grid-gap: 30px
+
+                &-item
+                    border: 2px solid #3BA605
+                    border-radius: 20px
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+
+                &-item p
+                    color: #3BA605
+                    font:
+                        size: 25px
+                        family: $fontmedium
+
+                    margin-bottom: 32px
+                    text-align: center
+
+                &-item img
+                    margin-top: 32px
+                    margin-bottom: 30px
+
+        &__bottom
+            text-align: start
+
+        &__button .btn-white
+            display: none
+                    
+        &__button .btn-green
+            display: block
+                    
+
 
 
 
