@@ -121,3 +121,21 @@ function showSlides(n) {
 }
 
 //slider
+
+const icon1 = document.querySelector('.icon1');
+const icon2 = document.querySelector('.icon2');
+const icon3 = document.querySelector('.icon3');
+const icon4 = document.querySelector('.icon4');
+const icon5 = document.querySelector('.icon5');
+const icon6 = document.querySelector('.icon6');
+const icon7 = document.querySelector('.icon7');
+const icon8 = document.querySelector('.icon8');
+
+icon1.addEventListener('click', () => icon1.classList.toggle('icon__active'));
+icon2.addEventListener('click', () => icon2.classList.toggle('icon__active'));
+icon3.addEventListener('click', () => icon3.classList.toggle('icon__active'));
+icon4.addEventListener('click', () => icon4.classList.toggle('icon__active'));
+icon5.addEventListener('click', () => icon5.classList.toggle('icon__active'));
+icon6.addEventListener('click', () => icon6.classList.toggle('icon__active'));
+icon7.addEventListener('click', () => icon7.classList.toggle('icon__active'));
+icon8.addEventListener('click', () => icon8.classList.toggle('icon__active'));

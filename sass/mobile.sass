@@ -127,12 +127,24 @@ $fontmedium: 'TT Firs', Medium
             display: none
                     
         &__button .btn-green
-            display: block
+            display: inline-block
                     
 
+.icon__active
+    background: #3BA605
+    transition: 0.3s
 
+.icon__active p
+    color: #FFF
 
+.icon__active .icon__img1
+    display: none
 
+.icon__active .icon__img2
+    display: block
+
+.icon__img2
+    display: none
 
 @media (max-width: 320px)
     .nav

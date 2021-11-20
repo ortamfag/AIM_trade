@@ -217,7 +217,7 @@ a {
   display: none;
 }
 .actual__button .btn-white {
-  display: block;
+  display: inline-block;
 }
 
 .analysis {
