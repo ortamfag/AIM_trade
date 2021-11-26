@@ -131,11 +131,57 @@ const icon6 = document.querySelector('.icon6');
 const icon7 = document.querySelector('.icon7');
 const icon8 = document.querySelector('.icon8');
 
+const icon1text = document.querySelector('.icon1text');
+const icon2text = document.querySelector('.icon2text');
+const icon3text = document.querySelector('.icon3text');
+const icon4text = document.querySelector('.icon4text');
+const icon5text = document.querySelector('.icon5text');
+const icon6text = document.querySelector('.icon6text');
+const icon7text = document.querySelector('.icon7text');
+const icon8text = document.querySelector('.icon8text');
+
 icon1.addEventListener('click', () => icon1.classList.toggle('icon__active'));
+icon1.addEventListener('click', () => icon1text.classList.toggle('icontext__active'));
 icon2.addEventListener('click', () => icon2.classList.toggle('icon__active'));
+icon2.addEventListener('click', () => icon2text.classList.toggle('icontext__active'));
 icon3.addEventListener('click', () => icon3.classList.toggle('icon__active'));
+icon3.addEventListener('click', () => icon3text.classList.toggle('icontext__active'));
 icon4.addEventListener('click', () => icon4.classList.toggle('icon__active'));
+icon4.addEventListener('click', () => icon4text.classList.toggle('icontext__active'));
 icon5.addEventListener('click', () => icon5.classList.toggle('icon__active'));
+icon5.addEventListener('click', () => icon5text.classList.toggle('icontext__active'));
 icon6.addEventListener('click', () => icon6.classList.toggle('icon__active'));
+icon6.addEventListener('click', () => icon6text.classList.toggle('icontext__active'));
 icon7.addEventListener('click', () => icon7.classList.toggle('icon__active'));
+icon7.addEventListener('click', () => icon7text.classList.toggle('icontext__active'));
 icon8.addEventListener('click', () => icon8.classList.toggle('icon__active'));
+icon8.addEventListener('click', () => icon8text.classList.toggle('icontext__active'));
+
+//мобильный список
+
+const mfirst = document.querySelector('.myear2020');
+const msecond = document.querySelector('.myear2021');
+const mthird = document.querySelector('.myear2025');
+
+
+//
+mfirst.addEventListener('click', () => firstlist.classList.toggle('list1active'));
+mfirst.addEventListener('click', () => secondlist.classList.remove('list2active'));
+mfirst.addEventListener('click', () => thirdlist.classList.remove('list3active'));
+mfirst.addEventListener('click', () => mthird.classList.toggle('mactive'));
+mfirst.addEventListener('click', () => msecond.classList.toggle('mactive'));
+
+
+//
+msecond.addEventListener('click', () => secondlist.classList.toggle('list2active'));
+msecond.addEventListener('click', () => firstlist.classList.remove('list1active'));
+msecond.addEventListener('click', () => thirdlist.classList.remove('list3active'));
+msecond.addEventListener('click', () => mfirst.classList.toggle('mactive'));
+msecond.addEventListener('click', () => mthird.classList.toggle('mactive'));
+
+//
+mthird.addEventListener('click', () => thirdlist.classList.toggle('list3active'));
+mthird.addEventListener('click', () => firstlist.classList.remove('list1active'));
+mthird.addEventListener('click', () => secondlist.classList.remove('list2active'));
+mthird.addEventListener('click', () => mfirst.classList.toggle('mactive'));
+mthird.addEventListener('click', () => msecond.classList.toggle('mactive'));

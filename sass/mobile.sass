@@ -130,41 +130,175 @@ $fontmedium: 'TT Firs', Medium
                     
         &__button .btn-green
             display: inline-block
-                    
 
-.icon__active
-    background: #3BA605
-    transition: 0.3s
+    .analysis
 
-.icon__active p
-    color: #FFF
+        &__inner
 
-.icon__active .icon__img1
-    display: none
+            &-mobile
+                display: block
 
-.icon__active .icon__img2
-    display: block
+            &-mobile ul li
+                padding: 20px
 
-.icon__img2
-    display: none
+            &-mobile ul li:hover
+                background: #2E8502
+                transition: 0.3s
 
-.icon1
-    margin-right: 8%
+    .technology h1
+        font:
+            size: 30px
+        letter-spacing: 0.1em
 
-.icon3
-    margin-right: 8%
+    .technology p
+        font:
+            size: 20px
 
-.icon5
-    margin-right: 8%
+
+    .technology
+        border-radius: 200px 0px
+        padding: 100px 3%
+
+        &__wrapper
+            flex-direction: column
+            align-items: center
+            
+        &__inner
+
+            &-item button
+                width: 85vw
+
+            &-item-1
+                margin: 0
+
+            &-item-2
+                margin: 0
+
+        &__button
+            display: none
+
+    .myear2020
+        display: none
+
+    .myear2021
+        display: none
+
+    .myear2025
+        display: none
+
+    .mactive
+        display: list-item
     
-.icon7
-    margin-right: 8%
-    
+    .icon__active
+        background: #3BA605
+        transition: 0.3s
 
+    .icontext__example h1
+        font:
+            size: 24px
+            family: $fontbold
+        text-decoration: underline
+        color: #3BA605
 
+    .icontext__example p
+        font:
+            size: 20px
+            family: $fontmedium
+        line-height: 130%
+        margin-top: 24px
+        color: #000
+
+    .icontext__example
+        margin-top: 85px
+        text-align: center
+
+    .icon__active p
+        color: #FFF
+
+    .icon__active .icon__img1
+        display: none
+
+    .icon__active .icon__img2
+        display: block
+
+    .icon__img2
+        display: none
+
+    .icon1
+        margin-right: 8%
+
+    .icon3
+        margin-right: 8%
+
+    .icon5
+        margin-right: 8%
+        
+    .icon7
+        margin-right: 8%
+
+    .icon1text
+        display: none
+
+    .icon2text
+        display: none
+
+    .icon3text
+        display: none
+
+    .icon4text
+        display: none
+
+    .icon5text
+        display: none
+
+    .icon6text
+        display: none
+
+    .icon7text
+        display: none
+
+    .icon8text
+        display: none
+
+    .icontext__active
+        display: block
+        margin-bottom: 15%
+        
+    .btn-icon
+        margin-top: 50px
+        width: 100%
+
+    .analysis
+
+        &__wrapper h1
+            letter-spacing: 0
+            font-size: 30px
+            text-transform: uppercase
+
+        &__wrapper p
+            font-size: 20px
+
+        &__inner
+            display: none
+
+            &-mobile ul
+                background-color: #3BA605
+
+            &-mobile ul li
+                font:
+                    size: 16px
+                    family: $fontextrabold
+                letter-spacing: 0.1em
+                color: #FFF
+    .analysis__wrapper-list li
+        margin-left: 1%
 
 @media (max-width: 320px)
     .nav
 
         &__mobile
             padding: 30px 5% 0% 5%
+
+@media (max-width: 475px)
+    .analysis__wrapper-list li
+        margin-left: 4%
