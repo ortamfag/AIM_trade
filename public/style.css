@@ -346,6 +346,14 @@ a {
   display: block;
 }
 
+.next__mobile {
+  display: none;
+}
+
+.item__inner-header-mobile {
+  display: none;
+}
+
 .technology h1 {
   font-family: "TT Firs", Bold;
   font-size: 42px;
