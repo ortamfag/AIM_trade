@@ -185,3 +185,30 @@ mthird.addEventListener('click', () => firstlist.classList.remove('list1active')
 mthird.addEventListener('click', () => secondlist.classList.remove('list2active'));
 mthird.addEventListener('click', () => mfirst.classList.toggle('mactive'));
 mthird.addEventListener('click', () => msecond.classList.toggle('mactive'));
+
+const mbfirst = document.querySelector('.mbyear2020');
+const mbsecond = document.querySelector('.mbyear2021');
+const mbthird = document.querySelector('.mbyear2025');
+
+
+//
+mbfirst.addEventListener('click', () => onelist.classList.toggle('list1active'));
+mbfirst.addEventListener('click', () => twolist.classList.remove('list2active'));
+mbfirst.addEventListener('click', () => threelist.classList.remove('list3active'));
+mbfirst.addEventListener('click', () => mbthird.classList.toggle('mactive'));
+mbfirst.addEventListener('click', () => mbsecond.classList.toggle('mactive'));
+
+
+//
+mbsecond.addEventListener('click', () => twolist.classList.toggle('list2active'));
+mbsecond.addEventListener('click', () => onelist.classList.remove('list1active'));
+mbsecond.addEventListener('click', () => threelist.classList.remove('list3active'));
+mbsecond.addEventListener('click', () => mbfirst.classList.toggle('mactive'));
+mbsecond.addEventListener('click', () => mbthird.classList.toggle('mactive'));
+
+//
+mbthird.addEventListener('click', () => threelist.classList.toggle('list3active'));
+mbthird.addEventListener('click', () => onelist.classList.remove('list1active'));
+mbthird.addEventListener('click', () => twolist.classList.remove('list2active'));
+mbthird.addEventListener('click', () => mbfirst.classList.toggle('mactive'));
+mbthird.addEventListener('click', () => mbsecond.classList.toggle('mactive'));

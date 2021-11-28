@@ -160,6 +160,25 @@
     display: none;
   }
 
+  .blink h1 {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+  }
+
+  .blink p {
+    font-size: 20px;
+  }
+
+  .blink__inner h1 {
+    font-size: 28px;
+  }
+  .blink__inner p {
+    font-size: 20px;
+  }
+  .blink__wrapper-number {
+    display: none;
+  }
+
   .myear2020 {
     display: none;
   }

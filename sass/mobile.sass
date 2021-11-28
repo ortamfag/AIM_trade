@@ -162,7 +162,7 @@ $fontmedium: 'TT Firs', Medium
         &__wrapper
             flex-direction: column
             align-items: center
-            
+
         &__inner
 
             &-item button
@@ -177,6 +177,66 @@ $fontmedium: 'TT Firs', Medium
         &__button
             display: none
 
+    .blink h1
+        font:
+            size: 30px
+        letter-spacing: 0.1em
+
+    .blink p
+        font:
+            size: 20px
+
+    .blink
+
+        &__inner h1
+            font-size: 28px
+
+        &__inner p
+            font-size: 20px
+
+        &__inner
+
+            &-first
+                background: url(../img/1blur.png) no-repeat
+
+            &-second
+                background: url(../img/2blur.png) no-repeat
+
+            &-third
+                background: url(../img/3blur.png) no-repeat
+
+            &-fourth
+                background: url(../img/4blur.png) no-repeat
+
+            &-fifth
+                background: url(../img/5blur.png) no-repeat
+
+            &-mobile
+                margin-top: 100px
+
+
+        &__wrapper
+
+            &-number
+                display: none
+
+            &-list li
+                margin-left: 1%
+
+        &__switch
+            display: none
+
+    .conclusion h1
+        font-size: 30px
+
+    .conclusion p
+        font-size: 20px
+        
+
+
+    
+    
+    
     .myear2020
         display: none
 
@@ -184,6 +244,15 @@ $fontmedium: 'TT Firs', Medium
         display: none
 
     .myear2025
+        display: none
+
+    .mbyear2020
+        display: none
+
+    .mbyear2021
+        display: none
+        
+    .mbyear2025
         display: none
 
     .mactive
@@ -301,4 +370,7 @@ $fontmedium: 'TT Firs', Medium
 
 @media (max-width: 475px)
     .analysis__wrapper-list li
+        margin-left: 4%
+
+    .blink__wrapper-list li
         margin-left: 4%
