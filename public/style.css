@@ -139,10 +139,14 @@ a {
   padding-top: 2%;
 }
 
-.introduction img {
+.introd {
   display: flex;
   margin: 7% auto;
   width: 90%;
+}
+
+.introm {
+  display: none;
 }
 
 .actual {
@@ -155,7 +159,8 @@ a {
 .actual__wrapper-h1 {
   font-size: 42px;
   font-family: "TT Firs", Bold;
-  font-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   margin-bottom: 50px;
   padding-top: 100px;
 }
@@ -260,6 +265,7 @@ a {
   font-size: 42px;
   letter-spacing: 0.1em;
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 .analysis__wrapper p {
   font-size: 24px;
@@ -360,6 +366,7 @@ a {
   letter-spacing: 0.1em;
   margin-bottom: 50px;
   padding-top: 100px;
+  text-transform: uppercase;
 }
 
 .technology p {
@@ -532,6 +539,7 @@ a {
   font-size: 42px;
   letter-spacing: 0.1em;
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 .blink__title p {
   font-size: 24px;
@@ -654,6 +662,7 @@ a {
   letter-spacing: 0.1em;
   margin-bottom: 50px;
   padding-top: 100px;
+  text-transform: uppercase;
 }
 
 .conclusion p {
@@ -671,6 +680,7 @@ a {
   letter-spacing: 0.1em;
   margin-bottom: 50px;
   padding-top: 100px;
+  text-transform: uppercase;
 }
 .opinion__title p {
   font-size: 24px;

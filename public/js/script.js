@@ -212,3 +212,10 @@ mbthird.addEventListener('click', () => onelist.classList.remove('list1active'))
 mbthird.addEventListener('click', () => twolist.classList.remove('list2active'));
 mbthird.addEventListener('click', () => mbfirst.classList.toggle('mactive'));
 mbthird.addEventListener('click', () => mbsecond.classList.toggle('mactive'));
+
+
+const burger = document.querySelector('.nav__burger');
+const sidebar = document.querySelector('.sidebar');
+burger.addEventListener('click', () => burger.classList.toggle('nav__burger-active'));
+burger.addEventListener('click', () => sidebar.classList.toggle('sidebar-active'));
+

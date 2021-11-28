@@ -3,6 +3,28 @@
 @import url("../fonts/TTFirs-Medium/style.css");
 @import url("../fonts/TTFirs-Bold/style.css");
 @media (max-width: 1000px) {
+  .sidebar {
+    width: 100%;
+    height: 90%;
+    border-radius: 0px 0px 100px 100px;
+    padding: 75px 30px;
+    text-align: end;
+    background-color: #FFF;
+    transform: translate(100%);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+
+  .sidebar-active {
+    transform: translate(0%);
+  }
+
   .nav {
     display: none;
   }
@@ -14,11 +36,50 @@
   }
   .nav__burger {
     display: block;
+    transition: box-shadow 0.3s ease;
+    z-index: 3;
+  }
+  .nav__burger-active {
+    position: fixed;
+    top: 55px;
+    left: 85%;
+  }
+  .nav__burger-active div:nth-child(1) {
+    transform: translateY(2px) rotate(45deg);
+    background: #3BA603;
+  }
+  .nav__burger-active div:nth-child(2) {
+    opacity: 0;
+  }
+  .nav__burger-active div:nth-child(3) {
+    transform: translateY(-18px) rotate(-45deg);
+    background: #3BA603;
+  }
+  .nav__block {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__block a {
+    margin-top: 30px;
+  }
+  .nav__logo {
+    position: absolute;
+    top: 25px;
+  }
+  .nav__link {
+    color: #1E204D;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+  .nav__link-first {
+    padding-top: 50px;
   }
   .nav__burger div {
     width: 26px;
     height: 3px;
     background: #FFF;
+    transition: all 0.3s ease;
   }
   .nav__burger div:nth-child(2) {
     margin-top: 7px;
@@ -66,9 +127,19 @@
     margin-bottom: 30px;
   }
 
-  .introduction {
+  .introduction p {
     font-size: 20px;
     padding: 0% 5% 10% 5%;
+  }
+
+  .introm {
+    display: flex;
+    margin: 7% auto;
+    width: 100%;
+  }
+
+  .introd {
+    display: none;
   }
 
   .actual {
