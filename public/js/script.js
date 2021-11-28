@@ -219,3 +219,21 @@ const sidebar = document.querySelector('.sidebar');
 burger.addEventListener('click', () => burger.classList.toggle('nav__burger-active'));
 burger.addEventListener('click', () => sidebar.classList.toggle('sidebar-active'));
 
+const link1 = document.querySelector('.nav__link-first');
+const link2 = document.querySelector('.nav__link-second');
+const link3 = document.querySelector('.nav__link-third');
+const link4 = document.querySelector('.nav__link-fourth');
+const link5 = document.querySelector('.nav__link-fifth');
+
+link1.addEventListener('click', () => sidebar.classList.remove('sidebar-active'));
+link1.addEventListener('click', () => burger.classList.remove('nav__burger-active'));
+link2.addEventListener('click', () => sidebar.classList.remove('sidebar-active'));
+link2.addEventListener('click', () => burger.classList.remove('nav__burger-active'));
+link3.addEventListener('click', () => sidebar.classList.remove('sidebar-active'));
+link3.addEventListener('click', () => burger.classList.remove('nav__burger-active'));
+link4.addEventListener('click', () => sidebar.classList.remove('sidebar-active'));
+link4.addEventListener('click', () => burger.classList.remove('nav__burger-active'));
+link5.addEventListener('click', () => sidebar.classList.remove('sidebar-active'));
+link5.addEventListener('click', () => burger.classList.remove('nav__burger-active'));
+
+
