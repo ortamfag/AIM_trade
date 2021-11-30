@@ -12,6 +12,9 @@ $fontmedium: 'TT Firs', Medium
     
 @media (max-width: 1000px)
 
+    .nav__logo
+        display: block
+
     .sidebar
         width: 100%
         height: 90%
@@ -220,6 +223,13 @@ $fontmedium: 'TT Firs', Medium
             &-mobile ul li:hover
                 background: #2E8502
                 transition: 0.3s
+
+    .modal
+        width: 95%
+
+    .modal__close
+        right: 5px
+        top: 25px        
 
     .technology h1
         font:
@@ -489,9 +499,26 @@ $fontmedium: 'TT Firs', Medium
         &__mobile
             padding: 30px 5% 0% 5%
 
+    .analysis__wrapper h1
+        font-size: 28px
+
+    .technology h1
+        font-size: 28px
+
+    .blink__inner h1
+        font-size: 24px
+
+    .btn
+        width: 300px
+
 @media (max-width: 475px)
     .analysis__wrapper-list li
         margin-left: 4%
 
     .blink__wrapper-list li
         margin-left: 4%
+
+@media (min-width: 700px)
+
+    .header__wrapper
+        background-size: 60%

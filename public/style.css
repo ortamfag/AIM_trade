@@ -25,6 +25,10 @@
   display: none;
 }
 
+.nav__logo {
+  display: none;
+}
+
 .header {
   color: #fff;
   margin-bottom: 130px;
